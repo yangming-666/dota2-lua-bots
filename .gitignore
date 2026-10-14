@@ -44,3 +44,26 @@ LICENSE
 .DS_Store
 .idea
 
+# Python caches and local environments
+**/__pycache__/
+**/.pytest_cache/
+**/.ruff_cache/
+**/*.egg-info/
+external_vision_ai/.venv/
+
+# Machine-local configuration and runtime output
+external_vision_ai/config.local.json
+external_vision_ai/config.local.json.bak
+external_vision_ai/config.suggested.json
+external_vision_ai/calibration_screenshot.png
+external_vision_ai/calibration_preview.png
+external_vision_ai/demo_events.jsonl
+external_vision_ai/events/
+external_vision_ai/observations/
+external_vision_ai/readiness_debug/
+external_vision_ai/tmp_*/
+external_vision_ai/*_validation*.json
+external_vision_ai/recording_readiness*.json*
+
+# Independent vision prototype lives in its own repository
+/external_vision_ai/
