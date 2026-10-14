@@ -1,6 +1,6 @@
-# Ranked Matchmaking AI — personal fork
+# Dota 2 Lua Bots
 
-A personal fork of the Lua bot scripts from [Ranked Matchmaking AI](https://github.com/adam3q/dota2ai). The bot code uses Valve's Dota 2 Bot Scripting API.
+A personal fork of the Ranked Matchmaking AI Lua bot scripts from [Ranked Matchmaking AI](https://github.com/adam3q/dota2ai). The bot code uses Valve's Dota 2 Bot Scripting API.
 
 [中文安装指南](README_zh_CN.md) · [GPL-3.0 license](LICENSE) · [Contributing](CONTRIBUTING.md)
 
@@ -17,8 +17,8 @@ Follow the existing [Chinese installation guide](README_zh_CN.md) for the Worksh
 For source inspection:
 
 ```sh
-git clone https://github.com/yangming-666/dota2ai.git
-cd dota2ai
+git clone https://github.com/yangming-666/dota2-lua-bots.git
+cd dota2-lua-bots
 ```
 
 | Area | Files |
